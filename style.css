@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: hsl(234, 29%, 20%);
+    background-color: #27293F;
     min-height: 931px;
     font-size: 16px;
     line-height: 1.8;
@@ -19,40 +19,41 @@ body {
 .container{
     max-width: 955px;
     margin: 0 auto;
-    background-color: hsl(0, 0%, 100%);
-    padding: 1.5rem;
+    background-color: #FFFFFF;
+    padding: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     }
     
     .container.success {
     display: initial;
-    padding: 3.5rem;
+    padding: 56px;
     }
     
     .left{
-    color: hsl(235, 18%, 26%);
-    padding: 4rem 2rem 2rem 2rem;
+    color: hsl(234, 29%, 20%);
+    padding: 64px 32px 32px 32px;
     }
     
     .left-info h1{
-    font-size: 3.5rem;
-    margin-bottom: .5rem;
+    font-size: 56px;
+    margin-bottom: 18px;
+    line-height: 60px;
     }
     
     .left-info p,
     .left-info ul {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     }
     
     .left-info ul li{
-    list-style-image: url(assets/images/icon-list.svg);
+    list-style-image: url(assets/images/icon-list2.svg);
     list-style-position: inside;
     }
     
     .left-info ul li::before{
     content: '';
-    margin-right: .5rem;
+    margin-right: 8px;
     }
     
     .form-item {
@@ -63,13 +64,13 @@ body {
     .form-item label{
     font-size: 12px;
     font-weight: 700;
-    margin-bottom: .5rem;
+    margin-bottom: 8px;
     display: flex;
     justify-content: space-between;
     }
     
     .form-item label .invalid-email{
-    color: hsl(4, 100%, 67%);
+    color: #FF6257;
     display: none;
     }
     
@@ -79,26 +80,26 @@ body {
     
     .form-item input,
     .form-item button {
-    padding: 1rem;
-    margin-bottom: 1.5rem;
+    padding: 16px;
+    margin-bottom: 24px;
     border-radius: 8px;
     }
     
     .form-item input{
-    border: 1px solid hsl(231, 7%, 60%);
+    border: 1px solid #9294A0;
     }
 
 
     
 .form-item input.active {
     background-color: rgba(255, 98, 87, 0.2);
-    border: 1px solid hsl(4, 100%, 67%);
+    border: 1px solid #FF6257;
     }
     
     .form-item button {
     cursor: pointer;
-    background: hsl(231, 7%, 60%);
-    color: hsl(0, 0%, 100%);
+    background: #9294A0;
+    color: #FFFFFF;
     font-weight: 700;
     outline: none;
     border: none;
@@ -126,21 +127,21 @@ body {
     }
     
     .confirmed-message h2 {
-    font-size: 3rem;
-    margin-top: 2rem;
+    font-size: 48px;
+    margin-top: 32px;
     }
     
     .confirmed-message p {
-    margin: 2rem 0;
+    margin: 32px 0;
     }
     
     .confirmed-message button {
     cursor: pointer;
-    background-color: hsl(231, 7%, 60%);
-    color: hsl(0, 0%, 100%);
+    background-color: #9294A0;
+    color: #FFFFFF;
     font-weight: 700;
     width: 100%;
-    padding: 1rem;
+    padding: 16px;
     border-radius: 8px;
     border: none;
     outline: none;
@@ -173,12 +174,12 @@ body {
             }
             
             .left{
-            padding: 1rem 2rem;
+            padding: 16px 32px;
             grid-row: 2;
             }
             
             .left-info ul li {
-            margin-bottom: 1rem;
+            margin-bottom: 16px;
             }
             
             .right img {
@@ -186,9 +187,9 @@ body {
             }
             
             .confirmed-message.active {
-            height: 100vh;
-            padding: 14rem 2rem 2rem 2rem;
-            display: flxed;
+            height: 931px;
+            padding: 224px 32px 32px 32px;
+            display: fixed;
             flex-direction: column;
             justify-content: center;
             }
